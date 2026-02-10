@@ -1,6 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-};
-
-module.exports = nextConfig;
+{
+  "name": "apple-memory-later",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
